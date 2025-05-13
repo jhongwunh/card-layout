@@ -1,0 +1,11 @@
+---
+title: "Card Layout Demo"
+format: html
+---
+
+# Welcome
+
+This page demonstrates how to use a card layout in Quarto.\
+Click the link below to view the full example:
+
+[👉 View Card Layout Page](card-layout.qmd)

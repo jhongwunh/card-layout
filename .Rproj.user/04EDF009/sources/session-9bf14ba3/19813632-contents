@@ -7,8 +7,7 @@ format:
 editor: visual
 ---
 
-Below is the code used to create the card layout on my portfolio website.
-It includes both the CSS styling file and the way the layout is structured in the .qmd file using markdown.
+Below is the code used to create the card layout on my portfolio website. It includes both the CSS styling file and the way the layout is structured in the .qmd file using markdown.
 
 ::: project-card-textonly
 ## Demo
@@ -22,20 +21,18 @@ All the code is shown in the cards below.
 [🔗 View style.css file](style.css)
 :::
 
-::: project-card-textonly
+:::: project-card-textonly
 ## In the qmd file
 
 ::: project-card-textonly
-
 Project Title
 
 Some summary text.
 
 [🔗 View](card-layout.qmd)
-
 :::
 
-```markdown
+``` markdown
 ::: project-card-textonly
 
 Project Title
@@ -46,13 +43,12 @@ Some summary text.
 
 :::
 ```
-:::
+::::
 
 ::: project-card-textonly
-
 ## In the css file
 
-```css
+``` css
 .project-card-textonly {
   background-color: #ffffff;       /* card background color */
   border: 1px solid #e0d9d0;       /* light border */
