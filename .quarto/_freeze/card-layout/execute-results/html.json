@@ -1,0 +1,15 @@
+{
+  "hash": "16868c1d8bfec7cef33dde88a235bff0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Card layout\"\nformat:\n  html:\n    theme: default\n    css: style.css\neditor: visual\n---\n\n::: project-card-textonly\n## Demo\n\n\\\nsummary\n:::\n\n::: project-card-textonly\n## In the qmd file\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \":::project-card-textonly\"\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"content\"\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \":::\"\n```\n\n\n:::\n:::\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
