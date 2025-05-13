@@ -1,0 +1,15 @@
+---
+title: "card layout"
+format:
+  html:
+    theme: default
+    css: style.css
+editor: visual
+---
+
+::: project-card-textonly
+## title
+
+\
+summary
+:::
