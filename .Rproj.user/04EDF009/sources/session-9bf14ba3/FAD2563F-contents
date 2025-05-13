@@ -1,5 +1,5 @@
 .project-card-textonly {
-  background-color: #ffffff;
+  background-color: #ffffff; 
   border: 1px solid #e0d9d0;
   border-radius: 12px;
   padding: 1.5rem;

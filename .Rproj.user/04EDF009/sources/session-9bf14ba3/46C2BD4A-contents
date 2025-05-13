@@ -1,5 +1,5 @@
 ---
-title: "card layout"
+title: "Card layout"
 format:
   html:
     theme: default
@@ -7,9 +7,75 @@ format:
 editor: visual
 ---
 
-::: project-card-textonly
-## title
+Below is the code used to create the card layout on my portfolio website.
+It includes both the CSS styling file and the way the layout is structured in the .qmd file using markdown.
 
-\
-summary
+::: project-card-textonly
+## Demo
+
+-   `project-card-textonly` styling
+-   Clean hover effects
+-   Markdown block with `:::`
+
+All the code is shown in the cards below.
+
+[🔗 View style.css file](style.css)
+:::
+
+::: project-card-textonly
+## In the qmd file
+
+::: project-card-textonly
+
+Project Title
+
+Some summary text.
+
+[🔗 View](card-layout.qmd)
+
+:::
+
+```markdown
+::: project-card-textonly
+
+Project Title
+
+Some summary text.
+
+[🔗 View](the file you want to link to)
+
+:::
+```
+:::
+
+::: project-card-textonly
+
+## In the css file
+
+```css
+.project-card-textonly {
+  background-color: #ffffff;       /* card background color */
+  border: 1px solid #e0d9d0;       /* light border */
+  border-radius: 12px;             /* rounded corners */
+  padding: 1.5rem;                 /* inner spacing */
+  margin-bottom: 2rem;             /* spacing between cards */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);  /* soft shadow */
+  transition: transform 0.2s ease;         /* smooth hover animation */
+}
+
+.project-card-textonly:hover {
+  transform: translateY(-4px);     /* slight upward movement on hover */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);  /* deeper shadow on hover */
+}
+
+.project-card-textonly a {
+  text-decoration: none;           /* remove underline from links */
+  color: #c69c6d;                  /* link color (normal) */
+}
+
+.project-card-textonly a:hover {
+  text-decoration: underline;      /* underline on hover */
+  color: #8c5c3b;                  /* darker link color on hover */
+}
+```
 :::

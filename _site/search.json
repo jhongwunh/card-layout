@@ -2,15 +2,29 @@
   {
     "objectID": "card-layout.html",
     "href": "card-layout.html",
-    "title": "card layout",
+    "title": "Card layout",
     "section": "",
-    "text": "summary"
+    "text": "Below is the code used to create the card layout on my portfolio website. It includes both the CSS styling file and the way the layout is structured in the .qmd file using markdown."
   },
   {
-    "objectID": "card-layout.html#title",
-    "href": "card-layout.html#title",
-    "title": "card layout",
-    "section": "",
-    "text": "summary"
+    "objectID": "card-layout.html#demo",
+    "href": "card-layout.html#demo",
+    "title": "Card layout",
+    "section": "Demo",
+    "text": "Demo\n\nproject-card-textonly styling\nClean hover effects\nMarkdown block with :::\n\nAll the code is shown in the cards below.\n🔗 View style.css file"
+  },
+  {
+    "objectID": "card-layout.html#in-the-qmd-file",
+    "href": "card-layout.html#in-the-qmd-file",
+    "title": "Card layout",
+    "section": "In the qmd file",
+    "text": "In the qmd file\n\nProject Title\nSome summary text.\n🔗 View\n\n::: project-card-textonly\n\nProject Title\n\nSome summary text.\n\n[🔗 View](the file you want to link to)\n\n:::"
+  },
+  {
+    "objectID": "card-layout.html#in-the-css-file",
+    "href": "card-layout.html#in-the-css-file",
+    "title": "Card layout",
+    "section": "In the css file",
+    "text": "In the css file\n.project-card-textonly {\n  background-color: #ffffff;       /* card background color */\n  border: 1px solid #e0d9d0;       /* light border */\n  border-radius: 12px;             /* rounded corners */\n  padding: 1.5rem;                 /* inner spacing */\n  margin-bottom: 2rem;             /* spacing between cards */\n  box-shadow: 0 4px 12px rgba(0,0,0,0.05);  /* soft shadow */\n  transition: transform 0.2s ease;         /* smooth hover animation */\n}\n\n.project-card-textonly:hover {\n  transform: translateY(-4px);     /* slight upward movement on hover */\n  box-shadow: 0 6px 18px rgba(0,0,0,0.08);  /* deeper shadow on hover */\n}\n\n.project-card-textonly a {\n  text-decoration: none;           /* remove underline from links */\n  color: #c69c6d;                  /* link color (normal) */\n}\n\n.project-card-textonly a:hover {\n  text-decoration: underline;      /* underline on hover */\n  color: #8c5c3b;                  /* darker link color on hover */\n}"
   }
 ]
